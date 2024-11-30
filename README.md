@@ -15,7 +15,7 @@ This is a React-based web app built with Vite, designed to view and interact wit
 - **Vite**: A fast build tool and development server for modern web projects.
 - **Codeforces API**: Fetches data related to contests.
 - **Tailwind CSS**: For styling the app with a utility-first CSS framework.
-- **Polaris**: A design system and React component library for consistent UI components.
+- **Polaris**: A shopify design system and React component library for consistent UI components.
 - **Chart.js**: To visualize contest durations in a bar chart format.
 
 ## Installation
@@ -39,8 +39,6 @@ npm run dev
     ContestDetailPage.js # Page displaying detailed information for a specific contest.
   /hooks
     useContest.js        # Custom hook to fetch contest data from the API.
-  /assets
-    logo.png             # App logo (if available).
   App.js                 # Root component.
   main.js                # Main entry point for the app.
   index.css              # Global styles.
